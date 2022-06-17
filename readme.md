@@ -32,7 +32,7 @@ Concretamente, los modelos a testear son:
 *   XGBOOST
 *   LSTM
 
-Se han encontrado diferentes escalas de resultados en los algoritmos tratados, encontrando algoritmos como Random Forest o XGBoost conocidos por su buen rendimiento, seguidos de LSTM en pleno apogeo del Deep Learning a la par con algoritmos simples como KNN que dan resultados mejores que algoritmos estadísticos más tradicionales como SARIMAX o Prophet que se encuentran a la cola.
+Se han encontrado diferentes escalas de resultados en los algoritmos tratados, encontrando algoritmos como Random Forest o XGBoost conocidos por su buen rendimiento, seguidos de LSTM en pleno apogeo del Deep Learning a la par con algoritmos simples como KNN que dan resultados mejores que algoritmos estadísticos más tradicionales como SARIMAX o Prophet que ofrecen los peores resultados.
 
 Una vez elegido el modelo, se prepara para ser incluido en una interfaz web desarrollada con el módulo streamlit.
 
