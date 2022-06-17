@@ -27,6 +27,7 @@ Concretamente, los objetivos del trabajo son los siguientes:
 Concretamente, los modelos a testear son:
 *   SARIMAX
 *   PROPHET
+*   KNN
 *   RANDOM FOREST REGRESSOR
 *   XGBOOST
 *   LSTM
