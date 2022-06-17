@@ -13,6 +13,8 @@ En el presente trabajo se centra el foco en el corto plazo, esto es, predecir cu
 El objetivo principal del trabajo es el de realizar una herramienta basada en analítica avanzada para la previsión del registro de paquetes el siguiente día en el sistema de una empresa de paquetería española. 
 La obtención de dicho dato es importante para la empresa de cara a organizar los recursos necesarios tanto de personal como de transporte para el movimiento de los paquetes el día próximo debido a que la planificación se realiza con un día de antelación.
 
+De esta manera, se pretenden poner a prueba diversos conocimientos adquiridos en el máster realizado correspondientes a diversas áreas como son: la obtención de datos, limpieza y tratamiento de los datos, análisis y visualización, modelos de previsión, evaluación de los mismos y la elaboración de interfaces. 
+
 Concretamente, los objetivos del trabajo son los siguientes:
 *   Obtención de la información, limpieza y tratamiento de los datos.
 *   Análisis y visualización de los datos.
