@@ -31,6 +31,7 @@ def scatterPlot(start, end, df):
     df_scatterplot = df[(df.index >= dt.datetime.strptime(str(start), '%Y-%m-%d'))&(df.index <=  dt.datetime.strptime(str(end), '%Y-%m-%d'))]
     fig = plt.figure(figsize=(24, 8))
     p = sns.scatterplot(df_scatterplot.index, df_scatterplot['n_parcels'], hue=df_scatterplot['typeDay']).set( xlabel = "Date", ylabel = "Parcels")
+    plt.legend(title='')
     st.pyplot(fig)    
 
 # show prediction function
@@ -54,6 +55,7 @@ def show_prediction(y_hat, df_f, df_p):
       fig = plt.figure(figsize=(24, 8))
       p1 = sns.lineplot(df_week_plot.index, df_week_plot['nparcels'], marker='o', 
                        hue=df_week_plot['past_future']).set(xlabel = "Date", ylabel = "Parcels")
+      plt.legend(title='')
       st.pyplot(fig) 
 
 # show future data parameters function
